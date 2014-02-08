@@ -4,7 +4,7 @@ A simple spell checker used to introduce Clojure.
 
 ## Topics
 
-By devloping this program we get to introduce the core of Clojure such as:
+By developing this program we get to introduce the core of Clojure such as:
 
 * Sequences and higher-order functions.
 * Code as data (although just by our macro usage where we inspect existing macros).
@@ -18,7 +18,7 @@ By devloping this program we get to introduce the core of Clojure such as:
 
 The idea here is to get a feel for development in Clojure rather than focusing on algorithms for spell checking. As such, I wouldn't use this library for any other purpose.
 
-Given that disclaimer, here's how to a session with the spell checker looks:
+Given that disclaimer, here's how a session with the spell checker looks:
 
     spelchekr.core> (train-by "Hello there these are some, words.")
     #{"these" "there" "words" "hello" "some" "are"}
